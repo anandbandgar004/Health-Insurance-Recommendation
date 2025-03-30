@@ -5,7 +5,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import LabelEncoder
 
 # Load dataset
-df = pd.read_csv("C:/Users/Anand Bandgar/Downloads/health_insurance_dataset.csv")
+df = pd.read_csv("health_insurance_dataset.csv")
 
 # Load trained model and encoders
 knn_model = joblib.load("knn_model.pkl")
